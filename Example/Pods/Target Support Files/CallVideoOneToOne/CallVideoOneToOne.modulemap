@@ -1,0 +1,6 @@
+framework module CallVideoOneToOne {
+  umbrella header "CallVideoOneToOne-umbrella.h"
+
+  export *
+  module * { export * }
+}

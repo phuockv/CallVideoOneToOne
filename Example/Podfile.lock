@@ -1,0 +1,23 @@
+PODS:
+  - CallVideoOneToOne (0.1.0)
+  - Stringee (1.3.9)
+
+DEPENDENCIES:
+  - CallVideoOneToOne (from `../`)
+  - Stringee
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Stringee
+
+EXTERNAL SOURCES:
+  CallVideoOneToOne:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CallVideoOneToOne: 275ae7c23ba757e7410d88f7ef8c341220c0fa97
+  Stringee: aa9239cb1c867248b11439359cc20f2c372156f3
+
+PODFILE CHECKSUM: bf6fb9be3452027ca55dc791bb9353a9d35de712
+
+COCOAPODS: 1.7.2
