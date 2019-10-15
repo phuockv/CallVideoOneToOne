@@ -15,6 +15,21 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		98BB7222235628E400EBDAEA /* busy_signal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BB720B235628E400EBDAEA /* busy_signal.mp3 */; };
+		98BB7223235628E400EBDAEA /* callring.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98BB720C235628E400EBDAEA /* callring.wav */; };
+		98BB7224235628E400EBDAEA /* end_call_tututu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 98BB720D235628E400EBDAEA /* end_call_tututu.caf */; };
+		98BB7225235628E400EBDAEA /* keypad_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BB720E235628E400EBDAEA /* keypad_sound.mp3 */; };
+		98BB7226235628E400EBDAEA /* outgoing_tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BB720F235628E400EBDAEA /* outgoing_tone.mp3 */; };
+		98BB7227235628E400EBDAEA /* sencha_ios_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BB7210235628E400EBDAEA /* sencha_ios_7.mp3 */; };
+		98BB7228235628E400EBDAEA /* CallPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BB7213235628E400EBDAEA /* CallPadViewController.m */; };
+		98BB7229235628E400EBDAEA /* CallPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98BB7214235628E400EBDAEA /* CallPadViewController.xib */; };
+		98BB722A235628E400EBDAEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BB7216235628E400EBDAEA /* Assets.xcassets */; };
+		98BB722B235628E400EBDAEA /* InstanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BB7217235628E400EBDAEA /* InstanceManager.m */; };
+		98BB722C235628E400EBDAEA /* StringeeImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BB7218235628E400EBDAEA /* StringeeImplement.m */; };
+		98BB722D235628E400EBDAEA /* CallingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BB721B235628E400EBDAEA /* CallingViewController.m */; };
+		98BB722E235628E400EBDAEA /* CallingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98BB721C235628E400EBDAEA /* CallingViewController.xib */; };
+		98BB722F235628E400EBDAEA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BB721F235628E400EBDAEA /* MainViewController.m */; };
+		98BB7230235628E400EBDAEA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98BB7220235628E400EBDAEA /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +45,7 @@
 /* Begin PBXFileReference section */
 		1084D34CA96A2369D8E8FA7D /* Pods-CallVideoOneToOne_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallVideoOneToOne_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CallVideoOneToOne_Tests/Pods-CallVideoOneToOne_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C4A1549A435EB3D6775A1DD /* Pods-CallVideoOneToOne_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallVideoOneToOne_Example.debug.xcconfig"; path = "Target Support Files/Pods-CallVideoOneToOne_Example/Pods-CallVideoOneToOne_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		527C1DA8079D4CB4B8DFE871 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		527C1DA8079D4CB4B8DFE871 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CallVideoOneToOne_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallVideoOneToOne_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,9 +56,30 @@
 		607FACE51AFB9204008FA782 /* CallVideoOneToOne_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallVideoOneToOne_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		747140BC66B9DCD9E585D9D3 /* CallVideoOneToOne.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CallVideoOneToOne.podspec; path = ../CallVideoOneToOne.podspec; sourceTree = "<group>"; };
-		76B886B1D6E7AA342FF8825D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		747140BC66B9DCD9E585D9D3 /* CallVideoOneToOne.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CallVideoOneToOne.podspec; path = ../CallVideoOneToOne.podspec; sourceTree = "<group>"; };
+		76B886B1D6E7AA342FF8825D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		824125AA8C56C7C5882ECA55 /* Pods-CallVideoOneToOne_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallVideoOneToOne_Example.release.xcconfig"; path = "Target Support Files/Pods-CallVideoOneToOne_Example/Pods-CallVideoOneToOne_Example.release.xcconfig"; sourceTree = "<group>"; };
+		98BB7209235628E300EBDAEA /* CallVideoOneToOne_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CallVideoOneToOne_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		98BB720B235628E400EBDAEA /* busy_signal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = busy_signal.mp3; sourceTree = "<group>"; };
+		98BB720C235628E400EBDAEA /* callring.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = callring.wav; sourceTree = "<group>"; };
+		98BB720D235628E400EBDAEA /* end_call_tututu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = end_call_tututu.caf; sourceTree = "<group>"; };
+		98BB720E235628E400EBDAEA /* keypad_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = keypad_sound.mp3; sourceTree = "<group>"; };
+		98BB720F235628E400EBDAEA /* outgoing_tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = outgoing_tone.mp3; sourceTree = "<group>"; };
+		98BB7210235628E400EBDAEA /* sencha_ios_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sencha_ios_7.mp3; sourceTree = "<group>"; };
+		98BB7212235628E400EBDAEA /* CallPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallPadViewController.h; sourceTree = "<group>"; };
+		98BB7213235628E400EBDAEA /* CallPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallPadViewController.m; sourceTree = "<group>"; };
+		98BB7214235628E400EBDAEA /* CallPadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallPadViewController.xib; sourceTree = "<group>"; };
+		98BB7215235628E400EBDAEA /* StringeeImplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringeeImplement.h; sourceTree = "<group>"; };
+		98BB7216235628E400EBDAEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98BB7217235628E400EBDAEA /* InstanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstanceManager.m; sourceTree = "<group>"; };
+		98BB7218235628E400EBDAEA /* StringeeImplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringeeImplement.m; sourceTree = "<group>"; };
+		98BB721A235628E400EBDAEA /* CallingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallingViewController.h; sourceTree = "<group>"; };
+		98BB721B235628E400EBDAEA /* CallingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallingViewController.m; sourceTree = "<group>"; };
+		98BB721C235628E400EBDAEA /* CallingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallingViewController.xib; sourceTree = "<group>"; };
+		98BB721E235628E400EBDAEA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		98BB721F235628E400EBDAEA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		98BB7220235628E400EBDAEA /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		98BB7221235628E400EBDAEA /* InstanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanceManager.h; sourceTree = "<group>"; };
 		A9C6106CCB514B272BAC5BE9 /* Pods-CallVideoOneToOne_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallVideoOneToOne_Tests.release.xcconfig"; path = "Target Support Files/Pods-CallVideoOneToOne_Tests/Pods-CallVideoOneToOne_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C8D205CAA6EB23DE4E66AA10 /* Pods_CallVideoOneToOne_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CallVideoOneToOne_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA226235DF886522F89C1BEE /* Pods_CallVideoOneToOne_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CallVideoOneToOne_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +122,6 @@
 				1084D34CA96A2369D8E8FA7D /* Pods-CallVideoOneToOne_Tests.debug.xcconfig */,
 				A9C6106CCB514B272BAC5BE9 /* Pods-CallVideoOneToOne_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,12 +149,22 @@
 		607FACD21AFB9204008FA782 /* Example for CallVideoOneToOne */ = {
 			isa = PBXGroup;
 			children = (
+				98BB7216235628E400EBDAEA /* Assets.xcassets */,
+				98BB7219235628E400EBDAEA /* CallingVC */,
+				98BB7211235628E400EBDAEA /* CallPadVC */,
+				98BB7221235628E400EBDAEA /* InstanceManager.h */,
+				98BB7217235628E400EBDAEA /* InstanceManager.m */,
+				98BB721D235628E400EBDAEA /* MainViewController */,
+				98BB720A235628E400EBDAEA /* Resources */,
+				98BB7215235628E400EBDAEA /* StringeeImplement.h */,
+				98BB7218235628E400EBDAEA /* StringeeImplement.m */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				98BB7209235628E300EBDAEA /* CallVideoOneToOne_Example-Bridging-Header.h */,
 			);
 			name = "Example for CallVideoOneToOne";
 			path = CallVideoOneToOne;
@@ -158,6 +203,49 @@
 				527C1DA8079D4CB4B8DFE871 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		98BB720A235628E400EBDAEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98BB720B235628E400EBDAEA /* busy_signal.mp3 */,
+				98BB720C235628E400EBDAEA /* callring.wav */,
+				98BB720D235628E400EBDAEA /* end_call_tututu.caf */,
+				98BB720E235628E400EBDAEA /* keypad_sound.mp3 */,
+				98BB720F235628E400EBDAEA /* outgoing_tone.mp3 */,
+				98BB7210235628E400EBDAEA /* sencha_ios_7.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		98BB7211235628E400EBDAEA /* CallPadVC */ = {
+			isa = PBXGroup;
+			children = (
+				98BB7212235628E400EBDAEA /* CallPadViewController.h */,
+				98BB7213235628E400EBDAEA /* CallPadViewController.m */,
+				98BB7214235628E400EBDAEA /* CallPadViewController.xib */,
+			);
+			path = CallPadVC;
+			sourceTree = "<group>";
+		};
+		98BB7219235628E400EBDAEA /* CallingVC */ = {
+			isa = PBXGroup;
+			children = (
+				98BB721A235628E400EBDAEA /* CallingViewController.h */,
+				98BB721B235628E400EBDAEA /* CallingViewController.m */,
+				98BB721C235628E400EBDAEA /* CallingViewController.xib */,
+			);
+			path = CallingVC;
+			sourceTree = "<group>";
+		};
+		98BB721D235628E400EBDAEA /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				98BB721E235628E400EBDAEA /* MainViewController.h */,
+				98BB721F235628E400EBDAEA /* MainViewController.m */,
+				98BB7220235628E400EBDAEA /* MainViewController.xib */,
+			);
+			path = MainViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +301,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -227,6 +315,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,9 +335,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BB7226235628E400EBDAEA /* outgoing_tone.mp3 in Resources */,
+				98BB7230235628E400EBDAEA /* MainViewController.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				98BB722A235628E400EBDAEA /* Assets.xcassets in Resources */,
+				98BB7222235628E400EBDAEA /* busy_signal.mp3 in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				98BB7229235628E400EBDAEA /* CallPadViewController.xib in Resources */,
+				98BB7225235628E400EBDAEA /* keypad_sound.mp3 in Resources */,
+				98BB722E235628E400EBDAEA /* CallingViewController.xib in Resources */,
+				98BB7223235628E400EBDAEA /* callring.wav in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				98BB7224235628E400EBDAEA /* end_call_tututu.caf in Resources */,
+				98BB7227235628E400EBDAEA /* sencha_ios_7.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +430,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BB722B235628E400EBDAEA /* InstanceManager.m in Sources */,
+				98BB722D235628E400EBDAEA /* CallingViewController.m in Sources */,
+				98BB7228235628E400EBDAEA /* CallPadViewController.m in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				98BB722F235628E400EBDAEA /* MainViewController.m in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				98BB722C235628E400EBDAEA /* StringeeImplement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,11 +582,14 @@
 			baseConfigurationReference = 2C4A1549A435EB3D6775A1DD /* Pods-CallVideoOneToOne_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CallVideoOneToOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CallVideoOneToOne/CallVideoOneToOne_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,11 +600,13 @@
 			baseConfigurationReference = 824125AA8C56C7C5882ECA55 /* Pods-CallVideoOneToOne_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CallVideoOneToOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CallVideoOneToOne/CallVideoOneToOne_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
