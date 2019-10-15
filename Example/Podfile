@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CallVideoOneToOne_Example' do
+  pod 'CallVideoOneToOne', :path => '../'
+
+  target 'CallVideoOneToOne_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
