@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'CallVideoOneToOne_Example' do
-  pod 'CallVideoOneToOne', :path => '../'
+  pod 'Stringee'
 
   target 'CallVideoOneToOne_Tests' do
     inherit! :search_paths
